@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styling/index.css" />
+    <title>Question Paper Generator</title>
+  </head>
+  <body>
+    <h2>SELECT THE TYPE OF QUESTION PAPER</h2>
+    <br /><br />
+    <div class="imageParent">
+      <div id="imx">
+        <img src="images/Objective.png" id="qspaper1" />
+        <br />
+        <button type="button" onclick="objective()">
+          <h4>OBJECTIVE</h4>
+        </button>
+      </div>
+      <div id="imx">
+        <img src="images/Subjective.png" id="qspaper2" />
+        <br />
+        <button type="button" onclick="subjective()">
+          <h4>SUBJECTIVE</h4>
+        </button>
+      </div>
+    </div>
+    <br /><br />
+    <div class="contentParent">
+      <div id="objective">
+        <h1>OBJECTIVE</h1>
+        <h2>Select Class</h2>
+        <h3 onclick="class9obj">Class 9</h3>
+        <h3 onclick="class10obj">Class 10</h3>
+        <h3>Class 11</h3>
+        <h3>Class 12</h3>
+      </div>
+      <div id="subjective">
+        <h1>SUBJECTIVE</h1>
+        <h2>Select Class</h2>
+        <h3 onclick="class9subj()">Class 9</h3>
+        <h3 onclick="class10subj()">Class 10</h3>
+        <h3 onclick="class11subj()">Class 11</h3>
+        <h3 onclick="class12subj()">Class 12</h3>
+      </div>
+    </div>
+    <div class="classParent">
+      <div id="class9">
+        <h2>Select Subject</h2>
+        <a href="class9/class9Math.html"><h3>Mathematics</h3></a>
+        <a href="class9/class9Science.html"><h3>Science</h3></a>
+      </div>
+      <div id="class10">
+        <h2>Select Subject</h2>
+        <a href="class10/class9Math.html"><h3>Mathematics</h3></a>
+        <a href="class10/class9Science.html"><h3>Science</h3></a>
+      </div>
+      <div id="class11">
+        <h2>Select Subject</h2>
+        <a href="class11/class9Math.html"><h3>Mathematics</h3></a>
+        <a href="class11/class9Science.html"><h3>Science</h3></a>
+      </div>
+      <div id="class12">
+        <h2>Select Subject</h2>
+        <a href="class12/class9Math.html"><h3>Mathematics</h3></a>
+        <a href="class12/class9Science.html"><h3>Science</h3></a>
+      </div>
+    </div>
+    <script src="scripting/index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,39 @@
+body {
+  background-color: whitesmoke;
+}
+#main {
+  /* display: none; */
+  border-style: solid;
+  border-color: black;
+}
+#oneMarker,
+#twoMarker,
+#threeMarker,
+#fourMarker {
+  align-content: center;
+  padding: 10px;
+  margin: 15px;
+  margin-left: 20px;
+  border-style: solid;
+  border-color: black;
+  width: auto;
+  height: 200px;
+  overflow: scroll;
+}
+h2,
+h3 {
+  text-align: center;
+}
+#submit {
+  font-size: 2rem;
+  color: #0099cc;
+  background-color: transparent;
+  border: 2px solid #0099cc;
+  border-radius: 5px;
+  text-transform: uppercase;
+  margin: 0;
+  position: absolute;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}

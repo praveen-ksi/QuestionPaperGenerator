@@ -1,0 +1,50 @@
+body {
+  background-color: lightgray;
+}
+h1,
+h2,
+h3 {
+  text-align: center;
+}
+#qspaper1,
+#qspaper2 {
+  box-shadow: 20px 20px 50px grey;
+  height: 70vh;
+  width: 30vw;
+  border-style: solid;
+  border-color: black;
+  border-width: 10%;
+  border-radius: 10px;
+}
+button {
+  box-shadow: 20px 20px 50px grey;
+  background-color: lightblue;
+}
+#imx {
+  display: flex;
+  flex-direction: column;
+}
+.imageParent {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+h3:hover {
+  background-color: black;
+  color: white;
+}
+.contentParent,
+.classParent {
+  display: flex;
+  justify-content: center;
+}
+#objective,
+#subjective,
+#class9,
+#class10,
+#class11,
+#class12 {
+  display: none;
+}
+@media screen {
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styling/commonPage.css" />
+    <title>VIE qspaper</title>
+  </head>
+  <body onload="getData();">
+    <h1>Enter The Following Details</h1>
+    <form action="subjectivePaper.html" onsubmit="createFile()">
+      <label for="Organisation">Enter The Name of your Organisation:</label>
+      <input
+        type="text"
+        id="Organisation"
+        name="Organisation"
+        placeholder="Organisation"
+      />
+      <label for="ExamName"> Enter Examination Name:</label>
+      <input
+        type="text"
+        id="ExamName"
+        name="ExamName"
+        placeholder="Exam Name"
+      /><br /><br />
+      <label for="Duration">Duration of Examination:</label>
+      <input type="text" id="Duration" name="Duration" placeholder="Duration" />
+      <label for="Marks">Maximum Marks:</label>
+      <input type="text" id="Marks" name="Marks" placeholder="MM" /><br /><br />
+      <label for="AddSection">Add Section</label>
+      <input type="checkbox" id="AddSection" /><br /><br />
+      <br />
+      <div id="main">
+        <h2>Select Questions</h2>
+        <h3>One Marks</h3>
+        <div id="oneMarker"></div>
+        <h3>Two Marks</h3>
+        <div id="twoMarker"></div>
+        <h3>Three Marks</h3>
+        <div id="threeMarker"></div>
+        <h3>Four Marks</h3>
+        <div id="fourMarker"></div>
+      </div>
+      <br /><br />
+      <input id="submit" type="submit" value="Submit" />
+      <br /><br />
+    </form>
+    <script type="text/javascript" src="scripting/commonPage.js"></script>
+  </body>
+</html>
